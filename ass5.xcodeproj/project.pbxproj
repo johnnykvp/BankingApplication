@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E8F52E85238682B400740221 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8F52E84238682B400740221 /* main.cpp */; };
+		E8F52E94238682DF00740221 /* bank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8F52E8C238682DE00740221 /* bank.cpp */; };
+		E8F52E95238682DF00740221 /* account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8F52E8D238682DE00740221 /* account.cpp */; };
+		E8F52E96238682DF00740221 /* accounttree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8F52E92238682DE00740221 /* accounttree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E81701042394FA130081B21C /* BankTransInV1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BankTransInV1.txt; sourceTree = "<group>"; };
+		E8170105239721FC0081B21C /* simplecompile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = simplecompile.sh; sourceTree = "<group>"; };
+		E8170106239724630081B21C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E8F52E81238682B400740221 /* ass5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ass5; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F52E84238682B400740221 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E8F52E8B238682DE00740221 /* BankTransOut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BankTransOut.txt; sourceTree = "<group>"; };
+		E8F52E8C238682DE00740221 /* bank.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bank.cpp; sourceTree = "<group>"; };
+		E8F52E8D238682DE00740221 /* account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = account.cpp; sourceTree = "<group>"; };
+		E8F52E8E238682DE00740221 /* accounttree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accounttree.h; sourceTree = "<group>"; };
+		E8F52E8F238682DE00740221 /* bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bank.h; sourceTree = "<group>"; };
+		E8F52E90238682DE00740221 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E8F52E91238682DE00740221 /* BankTransIn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BankTransIn.txt; sourceTree = "<group>"; };
+		E8F52E92238682DE00740221 /* accounttree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accounttree.cpp; sourceTree = "<group>"; };
+		E8F52E93238682DE00740221 /* account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = account.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,18 @@
 		E8F52E83238682B400740221 /* ass5 */ = {
 			isa = PBXGroup;
 			children = (
+				E8170106239724630081B21C /* README.md */,
+				E8170105239721FC0081B21C /* simplecompile.sh */,
+				E81701042394FA130081B21C /* BankTransInV1.txt */,
+				E8F52E8D238682DE00740221 /* account.cpp */,
+				E8F52E93238682DE00740221 /* account.h */,
+				E8F52E92238682DE00740221 /* accounttree.cpp */,
+				E8F52E8E238682DE00740221 /* accounttree.h */,
+				E8F52E8C238682DE00740221 /* bank.cpp */,
+				E8F52E8F238682DE00740221 /* bank.h */,
+				E8F52E91238682DE00740221 /* BankTransIn.txt */,
+				E8F52E8B238682DE00740221 /* BankTransOut.txt */,
+				E8F52E90238682DE00740221 /* CMakeLists.txt */,
 				E8F52E84238682B400740221 /* main.cpp */,
 			);
 			path = ass5;
@@ -120,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F52E85238682B400740221 /* main.cpp in Sources */,
+				E8F52E96238682DF00740221 /* accounttree.cpp in Sources */,
+				E8F52E95238682DF00740221 /* account.cpp in Sources */,
+				E8F52E94238682DF00740221 /* bank.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

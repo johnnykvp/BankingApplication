@@ -1,4 +1,4 @@
-# BankingApplication
+# BankingApplication 
 
 This will provide hands-on experience using both queues
 and binary search trees. It will also provide an opportunity for further program/class design as
